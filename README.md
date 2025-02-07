@@ -1,4 +1,4 @@
-# 🖖🏽Oi, eu sou o Lucas Araujo Bourguignon 🖖🏽
+<h1 align="center"> 🖖🏽Oi, eu sou o Lucas Araujo Bourguignon 🖖🏽</h1>
 
 ![Lucas's GitHub stats](https://github-readme-stats.vercel.app/api?username=labourguignonn&theme=chartreuse-dark&hide_border=true)
 ## Linguagens:
