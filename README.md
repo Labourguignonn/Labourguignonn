@@ -10,3 +10,4 @@
     <img align="center" alt="html5" src="https://img.shields.io/badge/Go-black?style=for-the-badge&logo=go&logoColor=%236BD600&labelColor=black&color=black"/>
 
 </div>
+![Snake animation](https://github.com/Labourguignonn/Labourguignonn/blob/output/github-contribution-grid-snake.svg)
