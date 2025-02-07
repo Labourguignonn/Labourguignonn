@@ -1,7 +1,7 @@
 name: Generate Datas
 on:
   schedule:
-    - cron: "0 */12 * * *"  # Executa a cada 12 horas
+    - cron: "0 */12 * * *"  # Runs every 12 hours
   workflow_dispatch:
 
 jobs:
@@ -11,19 +11,20 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v3  # Garante que o repositório é clonado
+      - uses: actions/checkout@v4  # Updated to the latest version
 
-      # Gera a animação da cobra
+      # Generate Snake animation
       - uses: Platane/snk@master
         id: snake-gif
         with:
           github_user_name: Labourguignonn
           svg_out_path: dist/github-contribution-grid-snake.svg
 
-      # Faz upload do arquivo para checagem
-      - uses: actions/upload-artifact@v3
+      # Upload artifact (fixed to v4)
+      - uses: actions/upload-artifact@v4
         with:
           name: snake-artifact
           path: dist/github-contribution-grid-snake.svg
 
-      # Publica no branch 'output
+      # Deploy to GitHub Pages (if needed)
+      - uses
